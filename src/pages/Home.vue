@@ -75,9 +75,8 @@ export default {
   },
   methods: {
     async onPeriksa() {
-      let url = "http://localhost/~purple/kelulusan"
-      // let url2 = "http://smkn4-tsm.sch.id:2020"
-      fetch(`${url}/api.php`)
+      let url = "https://raw.githubusercontent.com/HilmiZul/graduation-end/master/db.json"
+      fetch(`${url}`)
         .then((response) => response.json())
         .then((data) => {
           this.data = data;
