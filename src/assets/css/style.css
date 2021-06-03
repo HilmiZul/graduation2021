@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'Prototype';
+  src: url('../font/Prototype.ttf');
+}
+@font-face {
+  font-family: 'Fredoka One';
+  src: url('../font/fredoka.one.ttf');
+}
+@font-face {
+  font-family: 'Rechtman';
+  src: url('../font/RECHTMAN.TTF');
+}
+@font-face {
+  font-family: 'Grestal Script Demo';
+  src: url('../font/GrestalScriptDemoRegular.ttf');
+}
+body {
+  color: #525252;
+  background-color: rgba(234, 243, 249, 0.761)
+}
+
+.rechtman {
+  font-family: 'Rechtman';
+}
+.geral {
+  font-family: 'Grestal Script Demo';
+}
+
+.logo {
+  width: 50px;
+}
+
+.bg-yellow {
+  background-color: #F7E999;
+}
+
+.bg-green {
+  background-color: #D3EBB2;
+}
+
+.bg-blue {
+  background-color: #8BCBDE;
+}
+
+.bg-purple {
+  background-color: #8FA8F6;
+}
+
+.bg-red {
+  background-color: #E6567A;
+}
+
+.bg-shadow {
+  box-shadow: 9px 9px 0 0 rgb(164, 164, 164);
+}
+
+.prototype {
+  font-family: 'Prototype';
+}
+
+.fredoka-one {
+  font-family: 'Fredoka One';
+}
+
+.title {
+  color:rgb(80, 80, 80)
+}
+
+.text-grey {
+  color: rgb(121, 121, 121);
+}
+
+.congrats {
+  width: 100%;
+  height: 748px;
+  background: url('../img/bg-frame.jpg') no-repeat center center fixed;
+  background-size: contain;
+}
