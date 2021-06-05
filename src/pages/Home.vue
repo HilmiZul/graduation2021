@@ -76,7 +76,7 @@ export default {
   methods: {
     async onPeriksa() {
       let url = "https://raw.githubusercontent.com/HilmiZul/graduation-end/master/db.json"
-      fetch(`${url}`)
+      await fetch(`${url}`)
         .then((response) => response.json())
         .then((data) => {
           this.data = data;
